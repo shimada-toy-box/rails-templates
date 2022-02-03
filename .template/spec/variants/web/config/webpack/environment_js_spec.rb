@@ -8,7 +8,7 @@ describe 'Web variant - config/webpack/environment.js' do
   private
 
   def webpack_config
-    <<~EOT
+    <<~JAVASCRIPT
       const webpack = require('webpack');
 
       const plugins = [
@@ -19,6 +19,6 @@ describe 'Web variant - config/webpack/environment.js' do
       ];
 
       environment.config.set('plugins', plugins);
-    EOT
+    JAVASCRIPT
   end
 end
