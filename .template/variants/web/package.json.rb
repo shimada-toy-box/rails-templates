@@ -21,8 +21,8 @@ run 'yarn add --dev stylelint-config-property-sort-order-smacss'
 run 'yarn add --dev postcss@8.4.5'
 
 # Setup scripts
-source_stylesheet = "./app/assets/stylesheets/application.scss"
-bundled_stylesheet = "./app/assets/builds/application.css"
+source_stylesheet = './app/assets/stylesheets/application.scss'
+bundled_stylesheet = './app/assets/builds/application.css'
 
 run 'npm set-script eslint "eslint . --color"'
 run 'npm set-script eslint:fix "eslint . --color --fix"'
